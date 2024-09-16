@@ -85,7 +85,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 1;
   filter: brightness(40%);
 }
 .cover {
@@ -97,25 +97,17 @@
 }
 
 .content-cover-images {
-}
-
-/* Стиль для заголовка текста  */
-.cover-title {
- 
-  width: 100%;
-  padding: 162px 50px 43px 50px;
   background-image: url(../images/cover.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: top;
 }
 
-/* .lots__heading {
-  font-family: Raleway, sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  text-transform: lowercase;
-} */
+/* Стиль для заголовка текста  */
+.cover-title {
+  width: 100%;
+  padding: 162px 50px 43px 50px;
+}
 
 .cover-title-item {
   text-transform: uppercase;
@@ -209,6 +201,13 @@ button {
 .lots__card-list {
   display: flex;
   align-items: center;
+}
+
+.lots__heading {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: lowercase;
 }
 
 .lots__card-list-item {
