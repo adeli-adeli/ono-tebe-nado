@@ -1,16 +1,17 @@
 /* место для вашего кода */
+
+/* Стили шапки */
 .header {
   display: flex;
   align-items: center;
-  padding: 92px 24px 96px;
+  padding: 91px 24px 93px;
 }
 
-.header__menu {
-}
+/* Стиль для навигации  */
 
 .header__links-list {
   display: flex;
-  padding: 30px 41px 31px 26px;
+  padding: 31px 41px 29px 26px;
   gap: 34px;
   font-family: Raleway, sans-serif;
   font-weight: normal;
@@ -23,9 +24,6 @@
 
 .header__links-list-item_no-bullit {
   list-style: none;
-}
-
-.header__link {
 }
 
 .header__links-list-item a {
@@ -41,6 +39,8 @@
   text-decoration: none;
 }
 
+/* Стиль для логотипа  */
+
 .header__logo {
   width: 137px;
   display: block;
@@ -50,18 +50,17 @@
   width: 100%;
 }
 
+/* Стиль для адресса  */
+
 .header__info {
   display: flex;
   flex-direction: column;
-  padding: 2px 25px 3px 193px;
+  padding: 3px 25px 2px 193px;
   line-height: 1.4;
   font-family: Raleway, sans-serif;
   font-weight: normal;
   font-size: 18px;
-
 }
-
-
 
 .header__info_link_items a {
   text-decoration: none;
@@ -78,4 +77,148 @@
 
 .header__address {
   font-weight: normal;
+}
+
+/* Стили первое секции */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(40%);
+}
+.cover {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-cover-images {
+}
+
+/* Стиль для заголовка текста  */
+.cover-title {
+ 
+  width: 100%;
+  padding: 162px 50px 43px 50px;
+  background-image: url(../images/cover.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top;
+}
+
+/* .lots__heading {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: lowercase;
+} */
+
+.cover-title-item {
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  color: white;
+  letter-spacing: 30%;
+}
+
+.accent-span {
+  display: block;
+}
+
+.span-default {
+  letter-spacing: 30px;
+  line-height: 1.18;
+}
+
+.span-full {
+  letter-spacing: 0;
+}
+
+.text-center {
+  text-align: center;
+  letter-spacing: 25px;
+  line-height: 1.4;
+  padding-right: 38px;
+}
+
+.text-right {
+  text-align: right;
+  letter-spacing: 20px;
+  line-height: 1;
+}
+
+/* Стиль для нижнего текста и кнопки */
+
+.cover-auction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Стиль для текста аукцион  */
+
+.cover-bit {
+  padding-top: 139px;
+  word-spacing: 19px;
+  padding-left: 26px;
+}
+
+.cover-bit-items {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+}
+
+/* Стиль для кнопки  */
+
+.cover-button {
+  padding-top: 135px;
+}
+.cover-button-items {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+  color: white;
+  outline: none;
+  padding: 12px 32px 11px 31px;
+}
+
+button {
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+/* Стиль для второй секции  */
+
+.lots {
+  display: flex;
+  padding: 179px 24px 146px;
+}
+
+/* Стили для карточек */
+
+.lots__card-list {
+  display: flex;
+  align-items: center;
+}
+
+.lots__card-list-item {
+}
+
+.card-link {
+}
+
+.card {
+}
+
+.card_type_film {
 }

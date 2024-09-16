@@ -10,6 +10,9 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
+
+    <!-- Шапка сайта -->
+
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
@@ -24,30 +27,116 @@
           </li>
         </ul>
       </nav>
+
+    <!-- Логотип сайта -->
+
       <a class="header__logo">
         <img
           class="header__logo-image"
-          src="/images/logo-black.svg"
+          src="./images/logo-black.svg"
           alt="Логотип проекта"
         />
       </a>
 
+    <!-- Адресс сайта -->
+
       <article class="header__info">
         <address class="header__info_link_items">
-            <a class="header__info_link_active" href="tel:+9 999 555 5555"
-              >+9 999 555 5555</a
-            ><br/>
-            <a class="header__info_link_active" href="mailto:info@sobaka.ge"
-              >info@sobaka.ge</a
-            >
-          </address>
+          <a class="header__info_link_active" href="tel:+9 999 555 5555"
+            >+9 999 555 5555</a
+          ><br />
+          <a class="header__info_link_active" href="mailto:info@sobaka.ge"
+            >info@sobaka.ge</a
+          >
+        </address>
         <p class="address">
-            наб. Принсенграхт 263-<br />
-            265, Амстердам
-         
+          наб. Принсенграхт 263-<br />
+          265, Амстердам
         </p>
       </article>
-      
     </header>
+
+    <!-- Блок с секциями -->
+
+    <main>
+
+    <!-- Первая секция -->
+
+      <section class="cover content-cover content-cover-images">
+        
+    <!-- Общий контейнер -->
+
+        <div class="cover-title ">
+          <div class="overlay"></div>
+    <!-- Фотография секции-->
+          
+
+    <!-- Заголовок секции -->
+
+          <h1 class="cover-title-item">
+            <span class="accent-span text-left">
+              <span class="span-default">он</span>
+              <span class="span-full">o</span>
+            </span>
+            <span class="accent-span text-center">
+              <span class="text-center-default">теб</span>
+              <span class="text-center-extended">е</span>
+              
+            </span>
+            <span class="accent-span text-right"
+              >
+              <span class="text-right-default">
+                н
+              </span>
+              <span class="text-right-extended">адо</span
+            >
+          </h1>
+    <!-- Контейнер с текстом и кнопкой -->
+
+          <div class="cover-auction">
+            <div class="cover-bit">
+              <p class="cover-bit-items">
+                Аукцион вещей, в которые никто не верил
+              </p>
+            </div>
+            <div class="cover-button">
+              <button class="cover-button-items">Сделать ставку</button>
+            </div>
+          </div>
+        </div>
+      
+      </section>
+
+    <!-- Вторая секция -->
+
+    <section class="lots ">
+
+      <h2 class="lots__heading">
+        <span class="">лоты</span>
+      </h2>
+
+      <li class="lots__card-list">
+          <article class="lots__card-list-item">
+            <a class="card-link ">
+              <div class="card card_type_film">
+                <div class="overlay">
+                  <h3 class="card__title">
+                    Фильм режиссёра, который бросил киношколу
+                  </h3>
+                  <p class="card__text">
+                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                  </p>
+                </div>
+              </div>
+            </a>
+          </article>
+      </li>
+      <p class="lots__look-more">
+        <a href="#" class="lots__look-more-link">посмотреть больше</a>
+      </p>
+    </section>
+      
+
+    </main>
   </body>
 </html>
