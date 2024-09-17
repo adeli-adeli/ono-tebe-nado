@@ -245,9 +245,9 @@ button {
   color: white;
   text-decoration: underline;
   z-index: 2;
-  text-transform: uppercase;
-  line-height: 1.25;
+  
 }
+
 
 .card__text {
   padding: 238px 40px 48px 40px;
