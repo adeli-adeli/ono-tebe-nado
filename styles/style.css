@@ -26,18 +26,6 @@
   list-style: none;
 }
 
-.header__links-list-item a {
-  text-decoration: none;
-}
-
-.header__link_active {
-  border-bottom: 1px solid black;
-}
-
-.header__links_active.header__links-list-item {
-  text-decoration: none;
-}
-
 /* Стиль для логотипа  */
 
 .header__logo {
@@ -61,15 +49,15 @@
   font-size: 18px;
 }
 
-.header__info_link_items a {
+.info_link_items a {
   text-decoration: none;
 }
 
-.header__info_link_items {
+.info_link_items {
   list-style: none;
 }
 
-.header__info_link_active {
+.info_link_active {
   border-bottom: 1px solid black;
 }
 
@@ -116,7 +104,6 @@
   font-weight: bold;
   font-size: 100px;
   color: white;
-  letter-spacing: 30%;
 }
 
 .accent-span {
@@ -151,15 +138,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 135px;
 }
 
 /* Стиль для текста аукцион  */
-
-.cover-bit {
-  padding-top: 132px;
-  word-spacing: 19px;
-  padding-left: 26px;
-}
 
 .cover-bit-items {
   font-size: 22px;
@@ -168,13 +150,12 @@
   font-weight: normal;
   color: white;
   text-align: center;
+  word-spacing: 19px;
+  padding-left: 26px;
 }
 
 /* Стиль для кнопки  */
 
-.cover-button {
-  padding-top: 139px;
-}
 .cover-button-items {
   font-size: 22px;
   text-transform: uppercase;
@@ -194,7 +175,7 @@ button {
 
 .lots {
   display: flex;
-  padding: 179px 24px 146px;
+  padding: 184px 24px 146px;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -225,95 +206,60 @@ button {
 }
 
 .card-link {
+  display: flex;
   text-decoration: none;
 }
 
 .card {
-  position: relative;
-  width: 334px;
-  height: 564px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 334px;
+  min-height: 564px;
+  padding: 53px 40px 42px 40px;
+  justify-content: space-between;
 }
 
 .card__title {
-  padding: 51px 40px 0px 40px;
   font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: bold;
-  line-height: 120%;
   color: white;
   text-decoration: underline;
   z-index: 2;
-  letter-spacing: 1.24;
+  letter-spacing: 0.14px;
   text-transform: uppercase;
+  line-height: 1.25;
 }
-
 
 .card__text {
-  padding: 238px 40px 48px 40px;
   font-family: Raleway, sans-serif;
   font-size: 20px;
   font-weight: normal;
-  line-height: 120%;
-  color: white;
-  z-index: 2;
-}
-
-.card__text_two {
-  padding: 0px 40px 46px 40px;
-  font-family: Raleway, sans-serif;
-  font-size: 20px;
-  font-weight: normal;
-  line-height: 120%;
-  color: white;
-  z-index: 2;
-}
-
-.card__text_three {
-  padding: 90px 40px 48px 40px;
-  font-family: Raleway, sans-serif;
-  font-size: 20px;
-  font-weight: normal;
-  line-height: 120%;
   color: white;
   z-index: 2;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-}
-
-.lots__look-more {
-  padding-left: 40px;
-}
-
-.lots__look-more a {
-  text-decoration: none;
 }
 
 .lots__look-more-link {
   font-family: Raleway, sans-serif;
   font-size: 20px;
   font-weight: normal;
-  border-bottom: 1px solid black;
+  padding-left: 40px;
 }
 
 /* третья секция аукцион */
@@ -353,10 +299,10 @@ button {
 
 .about__block {
   display: grid;
-  grid-template-rows: 150px auto;
   justify-content: space-evenly;
   align-content: center;
   padding: 100px 0px 13px;
+  gap: 100px;
 }
 
 .about__title {
@@ -383,7 +329,7 @@ button {
 
 .footer {
   display: flex;
-  padding: 165px 51px 88px;
+  padding: 168px 51px 88px;
   justify-content: space-between;
 }
 
@@ -398,10 +344,6 @@ button {
 
 .footer_link_items a {
   text-decoration: none;
-}
-
-.footer_link_active {
-  border-bottom: 1px solid black;
 }
 
 /* стили навигации */
