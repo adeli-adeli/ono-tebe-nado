@@ -245,7 +245,8 @@ button {
   color: white;
   text-decoration: underline;
   z-index: 2;
-  
+  letter-spacing: 1.24;
+  text-transform: uppercase;
 }
 
 
@@ -427,7 +428,6 @@ button {
 }
 
 .footer__menu-link_active {
-  text-decoration: none;
   border-bottom: 1px solid black;
 }
 
